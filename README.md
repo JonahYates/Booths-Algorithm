@@ -1,4 +1,5 @@
 # Booths Algorithm Project
+#### Author: Jonah Yates
 
 ### _Abstract_
 Booths Algorithm is a multiplication algorithm designed by Andrew Donald Booth in the 1950s. The algorithm is a method for performing multiplication on two binary numbers within an arithmetic logic unit (ALU). Its relevance is primarily due to the performance advantages it provides compared to the traditional add-and-shift since instead of checking one bit of the multiplier each iteration, the algorithm checks two bits and then uses a coding scheme. This makes Booths faster than add and shift on average since fewer additions are performed on average. The instance where add and shift would be faster than Booth’s is when we are dealing with alternating 0s and 1s within the multiplier.
@@ -13,5 +14,3 @@ In the project, Booth’s algorithm was implemented in C++. The project begins b
 - 11 – no action 
 
 Before the end of each iteration, an arithmetic shift right is also performed. This is also the reason why vectors were used; vectors allow indexing at certain positions and updating values, making shifting easy. Finally, once we exit the loop the result which is in _AC_ _Q_ is returned.
-
-### View the word doc to read analysis/rest of the report. - Jonah Yates
