@@ -15,4 +15,4 @@ In the project, Booth’s algorithm was implemented in C++. The project begins b
 
 Before the end of each iteration, an arithmetic shift right is also performed. This is also the reason why vectors were used; vectors allow indexing at certain positions and updating values, making shifting easy. Finally, once we exit the loop the result which is in _AC_ _Q_ is returned.
 
-### View the word doc to read analysis/rest of the report.
+### View the report pdf to view the full report.
