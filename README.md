@@ -1,4 +1,4 @@
-# Booths Algorithm Project
+# Booth's Algorithm Project
 #### Author: Jonah Yates
 
 ### _Abstract_
